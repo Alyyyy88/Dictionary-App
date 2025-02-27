@@ -27,5 +27,5 @@ A simple and elegant dictionary web application built with **HTML**, **CSS**, an
 ---
 ## LIVE DEMO 🌐
 
-![LINK](https://free-dict-web.netlify.app/)
+[LINK](https://free-dict-web.netlify.app/)
 
