@@ -25,5 +25,7 @@ A simple and elegant dictionary web application built with **HTML**, **CSS**, an
   - [Free Dictionary API](https://dictionaryapi.dev/) - Provides word definitions, phonetics, and audio pronunciations.
 
 ---
-## LIVE DEMO
+## LIVE DEMO 🌐
+
+![LINK](https://free-dict-web.netlify.app/)
 
