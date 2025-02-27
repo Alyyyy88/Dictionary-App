@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cdb4db;
+}
+
+.container{
+  background-color: white;
+  width: 620px;
+  height: min-content;
+  padding: 3rem;
+  box-shadow: 9px 2px 34px -8px rgba(0,0,0,0.63);
+  border-radius: 12px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.container input{
+  width: 100%;
+  max-width: 420px;
+  padding: .5rem 1rem;
+  outline: none;
+  border: none;
+  caret-color: #cdb4db;
+  border-bottom: 3px solid #cdb4db;
+  font-size: 20px;
+}
+
+input::placeholder{
+  color: black;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+input:focus{
+  border: 2px solid #cdb4db;
+}
+
+.btn-search{
+  padding: 1rem 2.5rem;
+  margin-left: 12px;
+  border: none;
+  background-color: #cdb4db;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.btn-search:hover{
+  background-color: #a169c1;
+}
+
+.result-con{
+  width: 100%;
+  padding: 2rem 3rem;
+  display: none;
+
+}
+
+.word-sp{
+  font-size: 26px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.phonetics{
+  color: rgba(188, 184, 184, 0.858);
+  opacity: 75%;
+}
+
+.example-con{
+  border-left: 3px solid #cdb4db;
+  margin-top: 12px;
+  padding: 8px;
+  max-width: 400px;
+}
+
+.example{
+
+  font-size: 22px;
+  padding: 4px;
+  width: 100%;
+}
+
+.result-con.active{
+  display: block;
+}
+
+.word-con{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word-con button{
+  background-color: #cdb4db;
+  outline: none;
+  border: none;
+  padding: 20px;
+  color: white;
+  font-size: 22px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.word-con button:hover{
+  background-color: #a169c1;
+  transition: background-color ease-in-out 0.3s;
+}
